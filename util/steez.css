@@ -1,0 +1,55 @@
+/* GENERAL */
+body{
+    background-color: black;
+    color: cornsilk;
+}
+
+p{
+    color: rgb(146, 145, 143);
+}
+
+/* UTILITY DIVS */
+.main-structure{
+    position: absolute;
+    width: 99%;
+    left: 0.5%;
+}
+
+.text-holder{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.chapter{
+    width: 69%;
+    padding: 0.5rem;
+}
+
+/* TEXT */
+.banner{
+    font-size: 4rem;
+    padding: 2rem;
+    color: dimgrey;
+}
+
+.banner-alt{
+    font-size: 3.5rem;
+    padding: 1.5rem;
+    color: rgb(141, 92, 92);
+}
+
+.chapter-head{
+    color: gainsboro;
+}
+
+.lore-ref{
+    color: rgb(187, 192, 187);
+}
+.lore-ref:hover{
+    color: honeydew;
+}
