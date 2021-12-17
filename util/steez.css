@@ -8,6 +8,14 @@ p{
     color: rgb(146, 145, 143);
 }
 
+li{
+    color: rgb(170, 162, 145);
+}
+
+h4{
+    color: rgb(167, 195, 207);
+}
+
 /* UTILITY DIVS */
 .main-structure{
     position: absolute;
@@ -25,6 +33,15 @@ p{
     text-align: center;
 }
 
+.text-holder-alt{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .chapter{
     width: 69%;
     padding: 0.5rem;
@@ -37,6 +54,12 @@ p{
     color: dimgrey;
 }
 
+.sub-banner{
+    font-size: 2.75rem;
+    padding: 1.2rem;
+    color: rgb(138, 100, 138);
+}
+
 .banner-alt{
     font-size: 3.5rem;
     padding: 1.5rem;
@@ -47,9 +70,20 @@ p{
     color: gainsboro;
 }
 
+.category{
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: sandybrown;
+}
+
 .lore-ref{
     color: rgb(187, 192, 187);
 }
 .lore-ref:hover{
     color: honeydew;
+}
+
+.waiting{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
 }
