@@ -16,6 +16,11 @@ h4{
     color: rgb(167, 195, 207);
 }
 
+h5{
+    font-size: 0.95rem;
+    color: rgb(243, 186, 64);
+}
+
 /* UTILITY DIVS */
 .main-structure{
     position: absolute;
@@ -86,4 +91,13 @@ h4{
 .waiting{
     color: rgb(37, 37, 37);
     text-decoration: none;
+}
+
+.weight{
+    font-size: 1.35rem;
+}
+
+.weight-alt{
+    font-size: 1.35rem;
+    color: black;
 }
